@@ -39,7 +39,7 @@ def fetch_menu_data(restaurant_id):
 
     # check if the response status is successful (200 OK)
     if response.status_code == 200:
-        return response.json()  # Return the parsed JSON data
+        return response.json()  # return the parsed JSON data
     else:
         print(f"Failed to fetch menu data for restaurant ID {restaurant_id}")
         return None
