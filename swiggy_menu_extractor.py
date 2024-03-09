@@ -10,9 +10,7 @@ def fetch_menu_data(restaurant_id):
     parameters:
     restaurant_id (str): Unique identifier for the restaurant.
 
-    returns:
-    dict: JSON response from the API if the request is successful, None otherwise.
-    """
+
 
     api_url = f"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.56&lng=73.95&restaurantId={restaurant_id}"
 
